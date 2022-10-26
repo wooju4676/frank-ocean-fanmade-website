@@ -1,0 +1,366 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* class */
+.music_intro {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 앨범 1 */
+#album1_intro1 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+}
+#album1_intro1 p {
+	margin: 0;
+}
+#album1_intro1 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#album1_intro1 span {
+	font-size: 15px;
+}
+#album1_intro1 h2 {
+	margin: 30px 0;
+	font-size: 30px;
+	text-align: center;
+}
+#album1_intro1 img {
+	width: 23vw;
+	text-align: center;
+	border-radius: 10px;
+}
+#album1_intro2 {
+	height: 70vh;
+	width: 35vw;
+	background-color: #f0f0f2;
+	border-radius: 0 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#album1_intro2 li {
+	font-size: 25px;
+	width: 25vw;
+	display: flex;
+	justify-content: space-between;
+}
+#album1_intro2 p {
+	width: 30vw;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 32px;
+}
+#music_list1 {
+	display: none;
+}
+#music_list1 li:hover {
+	cursor: pointer;
+}
+#album1_intro2 button {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #a10d28;
+	color: #ffff;
+	align-self: flex-end;
+	margin-right: 60px;
+	font-size: 20px;
+}
+#album1_intro2 button:hover {
+	cursor: pointer;
+	color: lightgray;
+}
+#player1 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+	display: none;
+}
+#player1 progress {
+	width: 490px;
+	height: 25px;
+	margin: 10px;
+}
+#player1 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#player1 h2 {
+	font-size: 35px;
+	margin: 10px;
+	display: none;
+}
+#player1 img {
+	width: 20vw;
+	border-radius: 10px;
+}
+#player1 p {
+	margin: 0;
+}
+#player_button1 {
+	display: flex;
+	justify-content: center;
+}
+#player_button1 audio {
+	width: 20vw;
+	color: blue;
+	display: none;
+}
+
+/* 앨범 2 */
+#album2_intro1 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+}
+#album2_intro1 p {
+	margin: 0;
+}
+#album2_intro1 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#album2_intro1 span {
+	font-size: 15px;
+}
+#album2_intro1 h2 {
+	margin: 30px 0;
+	font-size: 30px;
+	text-align: center;
+}
+#album2_intro1 img {
+	width: 23vw;
+	text-align: center;
+	border-radius: 10px;
+}
+#album2_intro2 {
+	height: 70vh;
+	width: 35vw;
+	background-color: #f0f0f2;
+	border-radius: 0 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#album2_intro2 li {
+	font-size: 25px;
+	width: 25vw;
+	display: flex;
+	justify-content: space-between;
+}
+#album2_intro2 p {
+	width: 30vw;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 32px;
+}
+#music_list2 {
+	display: none;
+}
+#music_list2 li:hover {
+	cursor: pointer;
+}
+#album2_intro2 button {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #a10d28;
+	color: #ffff;
+	align-self: flex-end;
+	margin-right: 60px;
+	font-size: 20px;
+}
+#album2_intro2 button:hover {
+	cursor: pointer;
+	color: lightgray;
+}
+#player2 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+	display: none;
+}
+#player2 progress {
+	width: 490px;
+	height: 25px;
+	margin: 10px;
+}
+#player2 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#player2 h2 {
+	font-size: 35px;
+	margin: 10px;
+	display: none;
+}
+#player2 img {
+	width: 20vw;
+	border-radius: 10px;
+}
+#player2 p {
+	margin: 0;
+}
+#player_button2 {
+	display: flex;
+	justify-content: center;
+}
+#player_button2 audio {
+	width: 20vw;
+	color: blue;
+	display: none;
+}
+
+/* 앨범 3 */
+#album3_intro1 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+}
+#album3_intro1 p {
+	margin: 0;
+}
+#album3_intro1 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#album3_intro1 span {
+	font-size: 15px;
+}
+#album3_intro1 h2 {
+	margin: 30px 0;
+	font-size: 30px;
+	text-align: center;
+}
+#album3_intro1 img {
+	width: 23vw;
+	text-align: center;
+	border-radius: 10px;
+}
+#album3_intro2 {
+	height: 70vh;
+	width: 35vw;
+	background-color: #f0f0f2;
+	border-radius: 0 20px 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#album3_intro2 li {
+	font-size: 25px;
+	width: 25vw;
+	display: flex;
+	justify-content: space-between;
+}
+#album3_intro2 p {
+	width: 30vw;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 32px;
+}
+#music_list3 {
+	display: none;
+}
+#music_list3 li:hover {
+	cursor: pointer;
+}
+#button3 {
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border: 0;
+	background-color: #a10d28;
+	color: #ffff;
+	align-self: flex-end;
+	margin-right: 60px;
+	font-size: 20px;
+}
+#button3:hover {
+	cursor: pointer;
+	color: lightgray;
+}
+#player3 {
+	height: 70vh;
+	width: 30vw;
+	background-color: #f7f7f9;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	justify-content: center;
+	display: none;
+}
+#player3 progress {
+	width: 490px;
+	height: 25px;
+	margin: 10px;
+}
+#player3 h1 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 40px;
+	margin: 20px;
+}
+#player3 h2 {
+	font-size: 35px;
+	margin: 10px;
+	display: none;
+}
+#player3 img {
+	width: 20vw;
+	border-radius: 10px;
+}
+#player3 p {
+	margin: 0;
+}
+#player_button3 {
+	display: flex;
+	justify-content: center;
+}
+#player_button3 audio {
+	width: 20vw;
+	color: blue;
+	display: none;
+}

@@ -1,0 +1,31 @@
+#left-arrow {
+	font-size: 100px;
+	position: absolute;
+	display: none;
+	top: 59%;
+	left: 7%;
+}
+
+#right-arrow {
+	font-size: 100px;
+	position: absolute;
+	top: 59%;
+	right: 7%;
+}
+
+#left-arrow:hover,
+#right-arrow:hover {
+	color: aqua;
+}
+
+.container {
+	display: flex;
+	height: 98vh;
+	width: 300%;
+}
+
+#inputs {
+	position: absolute;
+	top: 66.5%;
+	left: 47%;
+}
