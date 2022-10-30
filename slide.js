@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+	console.log(`width: ${window.screen.width}, height: ${window.screen.height});
+	
 	let cnt = 0;
 	let temp = 0;
 	const prev = document.querySelector("#left-arrow");
