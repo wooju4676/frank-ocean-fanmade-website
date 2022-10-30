@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-	console.log(`width: ${window.screen.width}, height: ${window.screen.height});
+	console.log(`width: ${window.screen.width}, height: ${window.screen.height}`);
 	
 	let cnt = 0;
 	let temp = 0;
